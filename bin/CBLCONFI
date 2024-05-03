@@ -1,0 +1,72 @@
+# NOTE: by default for DOS, PRINTER is defined to be "-D PRN", you
+# need only make a definition for PRINTER if you want to change this
+
+
+# PEPSON      -Q "\\PC6\EpsonAP-
+PEPSON      -D c:\capa\listados\listado.TXT
+LISTADO         -D LPT1
+
+
+# Directorio donde estan los archivos
+FILE_PREFIX=c:.
+
+
+# Aqui configuro los CANCEL de los programas llamados con CALL para que
+# inicialice el programa pero no lo baje de memoria cuando haga un CANCEL
+LOGICAL_CANCELS 1
+
+# Aqui hago validas las variables del entorno para todo el sistema
+EXPAND_ENV_VARS 1
+
+# Uncomment the following line if you want to print a form-feed each
+# time a print file is closed
+PAGE-EJECT-ON-CLOSE	0
+
+# Uncomment this line if you want to treat OPEN ... WITH LOCK as if it
+# were written OPEN ... WITH MASS-UPDATE.
+MASS-UPDATE	1
+
+# Uncomment this line if you want all newly created indexed files to be
+# compressed
+
+# COMPRESS-FILES        1
+
+# This line is for controller keys of keyboard
+KEYBOARD CHECK-NUMBERS=YES
+
+# Aqui se inhibe la funcionalidad de la tecla f10 para reutilizarla como funcion
+F10_IS_MENU     0
+
+# Aqui se configuran las teclas de Funcion.
+#KEYSTROKE       EXCEPTION=00 ^M
+KEYSTROKE       EXCEPTION=82 KE
+KEYSTROKE       EXCEPTION=54 kh
+KEYSTROKE       EXCEPTION=56 kB
+KEYSTROKE       EXCEPTION=84 Tab
+KEYSTROKE       EXCEPTION=84 ^I
+KEYSTROKE EDIT=Next EXCEPTION=10 k0
+KEYSTROKE       EXCEPTION=11 U1
+KEYSTROKE       EXCEPTION=12 U2
+
+## llamar con Ctrl K al programa calk3.acu
+## KEYSTROKE HOT-KEY=\peqar\CALC3.acu ^K
+
+##para uso de transacciones
+MAX-FILES=256
+MAX-LOCKS=150
+LOCKS-PER-FILE=100
+CLOSE_ON_EXIT   2
+CURSOR-TYPE     2
+V_VERSION       3
+
+# Aqui se definen algunas cositas para las windows del sistema
+screen size=25,80 window=999,999
+font 2
+WINDOW-TITLE= SISTEMA DE ARQUITECTURA
+COLOR-MAP HIGH=BCKGRND-WHITE,CYAN LOW=BCKGRND-WHITE,BLUE DEFAULT=BCKGRND-WHITE,BLACK
+COLOR-TABLE 8,4=1,12
+COLOR-TABLE 8,12=1,12
+COLOR-TABLE 16,4=1,12
+COLOR-TABLE 16,12=1,12
+
+NO_CONSOLE      1
