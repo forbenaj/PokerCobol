@@ -20,7 +20,7 @@ This is a simple implementation of a Poker game written in COBOL. I developed th
 
 ## How to Run
 You can either:
-1. Run the Poker.acu file with the wrun32.exe
+1. Run the Poker.acu file with the bin/wrun32.exe
 2. Compile the Poker.CBL source code yourself and execute it
 
 ![Game image](game.png)
