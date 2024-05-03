@@ -1,0 +1,583 @@
+           IF WK-CARD1 = "A"
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              PERFORM STRAIGHT2 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "A"
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              PERFORM STRAIGHT2 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "A"
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              PERFORM STRAIGHT2 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "A"
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              PERFORM STRAIGHT2 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "A"
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              PERFORM STRAIGHT2 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT2.
+
+
+           IF WK-CARD1 = "2"
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              PERFORM STRAIGHT3 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "2"
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              PERFORM STRAIGHT3 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "2"
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              PERFORM STRAIGHT3 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "2"
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              PERFORM STRAIGHT3 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "2"
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              PERFORM STRAIGHT3 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT3.
+
+
+           IF WK-CARD1 = "3"
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              PERFORM STRAIGHT4 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "3"
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              PERFORM STRAIGHT4 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "3"
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              PERFORM STRAIGHT4 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "3"
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              PERFORM STRAIGHT4 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "3"
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              PERFORM STRAIGHT4 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT4.
+
+
+           IF WK-CARD1 = "4"
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              PERFORM STRAIGHT5 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "4"
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              PERFORM STRAIGHT5 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "4"
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              PERFORM STRAIGHT5 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "4"
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              PERFORM STRAIGHT5 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "4"
+              ADD 1 TO WK-KTO4
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              PERFORM STRAIGHT5 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT5.
+
+
+           IF WK-CARD1 = "5"
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              PERFORM STRAIGHT6 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "5"
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              PERFORM STRAIGHT6 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "5"
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              PERFORM STRAIGHT6 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "5"
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              PERFORM STRAIGHT6 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "5"
+              ADD 1 TO WK-ATO5
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              PERFORM STRAIGHT6 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT6.
+
+
+           IF WK-CARD1 = "6"
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              PERFORM STRAIGHT7 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "6"
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              PERFORM STRAIGHT7 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "6"
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              PERFORM STRAIGHT7 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "6"
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              PERFORM STRAIGHT7 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "6"
+              ADD 1 TO WK-2TO6
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              PERFORM STRAIGHT7 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT7.
+
+
+           IF WK-CARD1 = "7"
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              PERFORM STRAIGHT8 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "7"
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              PERFORM STRAIGHT8 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "7"
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              PERFORM STRAIGHT8 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "7"
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              PERFORM STRAIGHT8 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "7"
+              ADD 1 TO WK-3TO7
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              PERFORM STRAIGHT8 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT8.
+
+
+           IF WK-CARD1 = "8"
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              PERFORM STRAIGHT9 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "8"
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              PERFORM STRAIGHT9 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "8"
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              PERFORM STRAIGHT9 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "8"
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              PERFORM STRAIGHT9 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "8"
+              ADD 1 TO WK-4TO8
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              PERFORM STRAIGHT9 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT9.
+
+
+           IF WK-CARD1 = "9"
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              PERFORM STRAIGHT10 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "9"
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              PERFORM STRAIGHT10 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "9"
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              PERFORM STRAIGHT10 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "9"
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              PERFORM STRAIGHT10 THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "9"
+              ADD 1 TO WK-5TO9
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              PERFORM STRAIGHT10 THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHT10.
+
+
+           IF WK-CARD1 = "10"
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              PERFORM STRAIGHTJ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "10"
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              PERFORM STRAIGHTJ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "10"
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              PERFORM STRAIGHTJ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "10"
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              PERFORM STRAIGHTJ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "10"
+              ADD 1 TO WK-6TO10
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              PERFORM STRAIGHTJ THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHTJ.
+
+
+           IF WK-CARD1 = "J"
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              PERFORM STRAIGHTQ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "J"
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              PERFORM STRAIGHTQ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "J"
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              PERFORM STRAIGHTQ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "J"
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              PERFORM STRAIGHTQ THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "J"
+              ADD 1 TO WK-7TOJ
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              PERFORM STRAIGHTQ THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHTQ.
+
+
+           IF WK-CARD1 = "Q"
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              PERFORM STRAIGHTK THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "Q"
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              PERFORM STRAIGHTK THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "Q"
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              PERFORM STRAIGHTK THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "Q"
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              PERFORM STRAIGHTK THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "Q"
+              ADD 1 TO WK-8TOQ
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              PERFORM STRAIGHTK THRU GAMEOVER
+           END-IF.
+
+
+       STRAIGHTK.
+
+
+           IF WK-CARD1 = "K"
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              PERFORM ENDSTRAIGHT THRU GAMEOVER
+           END-IF.
+           IF WK-CARD2 = "K"
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              PERFORM ENDSTRAIGHT THRU GAMEOVER
+           END-IF.
+           IF WK-CARD3 = "K"
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              PERFORM ENDSTRAIGHT THRU GAMEOVER
+           END-IF.
+           IF WK-CARD4 = "K"
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              PERFORM ENDSTRAIGHT THRU GAMEOVER
+           END-IF.
+           IF WK-CARD5 = "K"
+              ADD 1 TO WK-9TOK
+              ADD 1 TO WK-10TOA
+              ADD 1 TO WK-JTO2
+              ADD 1 TO WK-QTO3
+              ADD 1 TO WK-KTO4
+              PERFORM ENDSTRAIGHT THRU GAMEOVER
+           END-IF.
+
+
+       ENDSTRAIGHT.

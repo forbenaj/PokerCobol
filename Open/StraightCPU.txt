@@ -1,0 +1,787 @@
+           IF WK-CARD1CPU = "A"
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              PERFORM STRAIGHTCPU2 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "A"
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              PERFORM STRAIGHTCPU2 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "A"
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              PERFORM STRAIGHTCPU2 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "A"
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              PERFORM STRAIGHTCPU2 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "A"
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              PERFORM STRAIGHTCPU2 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "A"
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              PERFORM STRAIGHTCPU2 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "A"
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              PERFORM STRAIGHTCPU2 THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPU2.
+
+
+           IF WK-CARD1CPU = "2"
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              PERFORM STRAIGHTCPU3 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "2"
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              PERFORM STRAIGHTCPU3 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "2"
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              PERFORM STRAIGHTCPU3 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "2"
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              PERFORM STRAIGHTCPU3 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "2"
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              PERFORM STRAIGHTCPU3 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "2"
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              PERFORM STRAIGHTCPU3 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "2"
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              PERFORM STRAIGHTCPU3 THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPU3.
+
+
+           IF WK-CARD1CPU = "3"
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              PERFORM STRAIGHTCPU4 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "3"
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              PERFORM STRAIGHTCPU4 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "3"
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              PERFORM STRAIGHTCPU4 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "3"
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              PERFORM STRAIGHTCPU4 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "3"
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              PERFORM STRAIGHTCPU4 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "3"
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              PERFORM STRAIGHTCPU4 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "3"
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              PERFORM STRAIGHTCPU4 THRU GAMEOVERCPU
+           END-IF.
+
+       STRAIGHTCPU4.
+
+
+           IF WK-CARD1CPU = "4"
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              PERFORM STRAIGHTCPU5 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "4"
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              PERFORM STRAIGHTCPU5 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "4"
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              PERFORM STRAIGHTCPU5 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "4"
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              PERFORM STRAIGHTCPU5 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "4"
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              PERFORM STRAIGHTCPU5 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "4"
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              PERFORM STRAIGHTCPU5 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "4"
+              ADD 1 TO WK-KTO4CPU
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              PERFORM STRAIGHTCPU5 THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPU5.
+
+
+           IF WK-CARD1CPU = "5"
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              PERFORM STRAIGHTCPU6 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "5"
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              PERFORM STRAIGHTCPU6 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "5"
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              PERFORM STRAIGHTCPU6 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "5"
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              PERFORM STRAIGHTCPU6 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "5"
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              PERFORM STRAIGHTCPU6 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "5"
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              PERFORM STRAIGHTCPU6 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "5"
+              ADD 1 TO WK-ATO5CPU
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              PERFORM STRAIGHTCPU6 THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPU6.
+
+
+           IF WK-CARD1CPU = "6"
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              PERFORM STRAIGHTCPU7 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "6"
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              PERFORM STRAIGHTCPU7 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "6"
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              PERFORM STRAIGHTCPU7 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "6"
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              PERFORM STRAIGHTCPU7 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "6"
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              PERFORM STRAIGHTCPU7 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "6"
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              PERFORM STRAIGHTCPU7 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "6"
+              ADD 1 TO WK-2TO6CPU
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              PERFORM STRAIGHTCPU7 THRU GAMEOVERCPU
+           END-IF.
+
+       STRAIGHTCPU7.
+
+
+           IF WK-CARD1CPU = "7"
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              PERFORM STRAIGHTCPU8 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "7"
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              PERFORM STRAIGHTCPU8 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "7"
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              PERFORM STRAIGHTCPU8 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "7"
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              PERFORM STRAIGHTCPU8 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "7"
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              PERFORM STRAIGHTCPU8 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "7"
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              PERFORM STRAIGHTCPU8 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "7"
+              ADD 1 TO WK-3TO7CPU
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              PERFORM STRAIGHTCPU8 THRU GAMEOVERCPU
+           END-IF.
+
+       STRAIGHTCPU8.
+
+
+           IF WK-CARD1CPU = "8"
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              PERFORM STRAIGHTCPU9 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "8"
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              PERFORM STRAIGHTCPU9 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "8"
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              PERFORM STRAIGHTCPU9 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "8"
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              PERFORM STRAIGHTCPU9 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "8"
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              PERFORM STRAIGHTCPU9 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "8"
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              PERFORM STRAIGHTCPU9 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "8"
+              ADD 1 TO WK-4TO8CPU
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              PERFORM STRAIGHTCPU9 THRU GAMEOVERCPU
+           END-IF.
+
+       STRAIGHTCPU9.
+
+
+           IF WK-CARD1CPU = "9"
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              PERFORM STRAIGHTCPU10 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "9"
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              PERFORM STRAIGHTCPU10 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "9"
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              PERFORM STRAIGHTCPU10 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "9"
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              PERFORM STRAIGHTCPU10 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "9"
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              PERFORM STRAIGHTCPU10 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "9"
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              PERFORM STRAIGHTCPU10 THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "9"
+              ADD 1 TO WK-5TO9CPU
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              PERFORM STRAIGHTCPU10 THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPU10.
+
+
+           IF WK-CARD1CPU = "10"
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              PERFORM STRAIGHTCPUJ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "10"
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              PERFORM STRAIGHTCPUJ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "10"
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              PERFORM STRAIGHTCPUJ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "10"
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              PERFORM STRAIGHTCPUJ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "10"
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              PERFORM STRAIGHTCPUJ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "10"
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              PERFORM STRAIGHTCPUJ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "10"
+              ADD 1 TO WK-6TO10CPU
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              PERFORM STRAIGHTCPUJ THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPUJ.
+
+
+           IF WK-CARD1CPU = "J"
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              PERFORM STRAIGHTCPUQ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "J"
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              PERFORM STRAIGHTCPUQ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "J"
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              PERFORM STRAIGHTCPUQ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "J"
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              PERFORM STRAIGHTCPUQ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "J"
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              PERFORM STRAIGHTCPUQ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "J"
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              PERFORM STRAIGHTCPUQ THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "J"
+              ADD 1 TO WK-7TOJCPU
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              PERFORM STRAIGHTCPUQ THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPUQ.
+
+
+           IF WK-CARD1CPU = "Q"
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              PERFORM STRAIGHTCPUK THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "Q"
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              PERFORM STRAIGHTCPUK THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "Q"
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              PERFORM STRAIGHTCPUK THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "Q"
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              PERFORM STRAIGHTCPUK THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "Q"
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              PERFORM STRAIGHTCPUK THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "Q"
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              PERFORM STRAIGHTCPUK THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "Q"
+              ADD 1 TO WK-8TOQCPU
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              PERFORM STRAIGHTCPUK THRU GAMEOVERCPU
+           END-IF.
+
+
+       STRAIGHTCPUK.
+
+
+           IF WK-CARD1CPU = "K"
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              PERFORM ENDSTRAIGHTCPU THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARD2CPU = "K"
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              PERFORM ENDSTRAIGHTCPU THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE1 = "K"
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              PERFORM ENDSTRAIGHTCPU THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE2 = "K"
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              PERFORM ENDSTRAIGHTCPU THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE3 = "K"
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              PERFORM ENDSTRAIGHTCPU THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE4 = "K"
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              PERFORM ENDSTRAIGHTCPU THRU GAMEOVERCPU
+           END-IF.
+           IF WK-CARDTABLE5 = "K"
+              ADD 1 TO WK-9TOKCPU
+              ADD 1 TO WK-10TOACPU
+              ADD 1 TO WK-JTO2CPU
+              ADD 1 TO WK-QTO3CPU
+              ADD 1 TO WK-KTO4CPU
+              PERFORM ENDSTRAIGHTCPU THRU GAMEOVERCPU
+           END-IF.
+
+
+       ENDSTRAIGHTCPU.
